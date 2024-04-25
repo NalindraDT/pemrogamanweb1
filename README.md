@@ -14,7 +14,7 @@
  ## HTML
 
  
-### Pengenalan
+## Pengenalan
 Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar seperti:
 - "head" yang merupakan menentukan meta name
 - "body" yang merupakan bagian utama sebuah document html
@@ -64,7 +64,7 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 
 (sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
 
-### comment
+## Comment
 Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan tertulis tanpa mengganggu coding
 
 ```html
@@ -84,4 +84,9 @@ Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan t
 </body>
 </html>
 ```
+
+Hasil:
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 
