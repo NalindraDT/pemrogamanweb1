@@ -61,7 +61,27 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 ### Hasil:
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 (sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
 
-##
+### comment
+Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan tertulis tanpa mengganggu coding
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Comment</h2>
+    <p>Ini adalah paragraf</p>
+    <!-- Halo guys ini adalah comment jika ada sebuah perintah atau kalimat yang memasuki jangkauan comment
+         maka perintah atau kalimat tersebut tidak berlaku -->
+    <p>hai ini paragarf</p>
+</body>
+</html>
+```
 
