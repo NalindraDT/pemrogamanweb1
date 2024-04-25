@@ -320,6 +320,8 @@ p.nale{
 </body>
 </html>
 ```
+
+## hasil:
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 - (h1,h2.p) = element
@@ -362,6 +364,8 @@ h1 {
 </html>
 
 ```
+## hasil:
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 untuk contoh gambar yang lebih lengkap silahkan kunjungi files CSS
@@ -439,6 +443,8 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 - outline merupakan sebuah garis yang berada di bagian luar suatu objek
 - text format merupakan bagaimana cara penulisan sebuah teks
 
+## hasil:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -466,6 +472,9 @@ div {
 </body>
 </html>
 ```
+
+## hasil:
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 #
 ## Border, table, etc
@@ -565,7 +574,13 @@ div {
 </body>
 </html>
 ```
+
+## hasil:
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+##
 
   
 
