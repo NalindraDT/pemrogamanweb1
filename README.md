@@ -16,7 +16,14 @@
  
 ### Pengenalan
 Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar seperti:
-- <head> yang </head>
+- "head" yang merupakan menentukan meta name
+- "body" yang merupakan bagian utama sebuah document html
+- "h" yang berarti header
+- "u" yang berarti underline
+- "br" yang berfungsi mengubah baris
+- "p" sebagai pembuat paragraf
+- "a" dan "href" sebagai sumber link
+- "img src" sebagai input gambar
 
 ```html
 <!DOCTYPE html>
