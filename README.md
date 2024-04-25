@@ -614,7 +614,120 @@ Merupakan sebuah command untuk memanggil suatu variabel
 Let, Var, Const intinya memiliki fungsi yang sama yaitu mendeklarasi sebuah variabel.
 hanya saja let dan const lebih unggul daripada var
 
-  
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>JavaScript Arithmetic</h2>
+    <p>
+      A typical arithmetic operation takes two numbers (or variables) and
+      produces a new number.
+    </p>
+
+    <p id="nale1"></p>
+    <p id="nale2"></p>
+    <p id="nale3"></p>
+
+    <script>
+
+
+
+      var c = 100;
+      var d = 40;
+      var e = c + d;
+
+      let a = 100;
+      let b = 50;
+      let x = a + b;
+
+      const f = 100;
+      const g = 50;
+      const h = g + f;
+ 
+     
+      document.getElementById("nale1").innerHTML = x;
+      document.getElementById("nale2").innerHTML = e;
+      document.getElementById("nale3").innerHTML = h;
+    </script>
+    
+  </body>
+</html>
+```
+## Hasil:
+
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+#
+## Array
+memiliki fungsi untuk menyimpan data secara bersamaan
+
+```html
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p>Declaring a constant array does NOT make the elements unchangeable:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element:
+cars[0] = "Toyota";
+
+// Add an element:
+cars.push("Audi");
+
+// Display the Array:
+document.getElementById("demo").innerHTML = cars; 
+</script>
+
+</body>
+</html>
+
+```
+## Hasil:
+
+ ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+ #
+ ## Function 
+ - function memiliki arti sebagai fungsi, jadi tugas function yaitu menyeleasikan pekerjaan
+
+
+
+```html
+
+   <!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Functions</h1>
+
+    <p>Call a function which performs a calculation and returns the result:</p>
+
+    <p id="demo"></p>
+
+    <script>
+      function myFunction(p1, p2) {
+        return p1 * p2;
+      }
+
+      let result = myFunction(4, 3);
+      document.getElementById("demo").innerHTML = result;
+    </script>
+  </body>
+</html>
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+```
+
+
 
 
 
