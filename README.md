@@ -278,5 +278,61 @@ Contoh pembuatan list bersarang
 Dalam perogaman web, CSS digunakan untuk mendekorasi atau memperindah sebuah website. Dengan penggunaan CSS yang baik dan benar,
 para user pasti akan merasa nyaman menggunkan website yang mereka kunjungi
 
-## 
+
+#
+## style dan selector
+"style" merupakan sebuah tag utama yang selalu digunakan oleh web developer untuk memperindah website mereka,
+tag "style" memiliki banyak fungsi seperti:
+- mengubah warna suatu teks
+- mengubah background
+- mengubah style dan ukuran font
+- dan masih banyak lagi
+selector merupakan perantara antara tag "style" dan tag lain untuk mendapatkan sebuah dekorasi
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+.nale{
+  text-align: center;
+  color: greenyellow;
+}
+#nale1{
+  text-align: center;
+  color: blue;
+}
+p.nale{
+  text-align: center;
+  color: pinkw;
+</style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+- (h1,h2.p) = element
+- (.nale) = "class= nale"
+- (#nale1)= "id= nale1"
+- (p.nale)= "p class= nale"
+
+
+
+
+
+
+
+  
+#
+
+
 
