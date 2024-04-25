@@ -160,6 +160,10 @@ dengan menggunanakan tag "li" anda bisa membuat list dengan cara yang berbeda be
 </body>
 </html>
 ```
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 ### ul (unordered list)
 ```html
 <!DOCTYPE html>
@@ -177,6 +181,94 @@ dengan menggunanakan tag "li" anda bisa membuat list dengan cara yang berbeda be
 </body>
 </html>
 ```
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+#
+## table
+anda dapat membuat sebuah table sederhana menggunakan tag "table", sebuah table memilik tag lain seperti
+- th (table header)
+- td (table cell)
+- tr (table row)
+
+```html
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
+
+```
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+#
+## Contoh pelaksanaanya
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Praktikum Pemrograman Web 1</h2>
+    <ul type="square">
+    <li style="color: green;">Senin</li>
+    <ol type="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <li style="color: blue;">Selasa</li>
+    <ol type="I">
+          <li>Boostrap</li>
+          <li>Introduction</li>
+          <li>Layout</li>
+
+    </ol>
+    <ol>
+      <li>PHP</li>
+      <li>MySQL</li>
+    </ol>
+    </ul>
+
+    </pre>
+  </body>
+</html>
+```
+Contoh pembuatan list bersarang
 
 
 
