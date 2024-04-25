@@ -86,7 +86,59 @@ Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan t
 ```
 
 Hasil:
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Link
+Untuk melampirkan sebuah link anda dapat menggunakan tag "a" dan "h ref" lalu anda dapat memasukan value sesuai kemauan anda
+sebuah link dapat berbentuk seperti gambar juga, untuk selengkapnya berada di file html.
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Links</h1>
+
+<p><a href="https://github.com/NalindraDT" title="pergi ke github nale">Visit my github</a></p>
+
+</body>
+</html>
+
+```
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Image
+
+Sebuah gambar dapat dilampirkan jika anda menggunkan "img src", dengan menggunakan tag ini anda dapat melampirkan gambar dalam folder yang sama,
+dalam folder yang berbeda, dan link image dari web lain
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Animated Images</h2>
+
+<p>HTML allows moving images:</p>
+
+<img src="kucinggaruk.gif" alt="Kuncing Gatel" style="width:148px;height:148px;">
+
+</body>
+</html>
+
+```
+## Hasil:
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+dalam gambar diatas merupakan salah satu contoh dari banyak nya contoh cara untuk melampirkan gambar
+
+
+## List
+
 
 
 
