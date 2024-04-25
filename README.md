@@ -58,4 +58,10 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 </html>
 ```
 
+### Hasil:
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+(sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
+
+##
 
