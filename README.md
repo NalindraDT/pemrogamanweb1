@@ -580,7 +580,39 @@ div {
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
-##
+# Java Script
+Seperti sama halnya dengan rumah dimana yang mmenjadi pondasi itu html, yang menghiasi ruangan CSS dan yang menjalankan sistem nya adalah javascript.
+Java script merupakan bahasa pemrogaman yang paling sering digunakan oleh web development dikarenakan ke mampuannya untuk mengolah data
+
+
+## GetElementadeById
+Merupakan sebuah command untuk memanggil suatu variabel
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo" style="display: none">Hello JavaScript!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.display='block'"
+    >
+      Click Me!
+    </button>
+  </body>
+</html>
+```
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+#
+## Let, Var, Const
+Let, Var, Const intinya memiliki fungsi yang sama yaitu mendeklarasi sebuah variabel.
+hanya saja let dan const lebih unggul daripada var
 
   
 
