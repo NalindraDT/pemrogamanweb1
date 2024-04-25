@@ -1,5 +1,5 @@
 
-### Project ini merupakan sebuah pembelajaran yang meliputi
+# Project ini merupakan sebuah pembelajaran yang meliputi
 
  - HTML
  - CSS
