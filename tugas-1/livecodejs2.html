@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th{
+  border: 1px solid black;
+  width: 500px;
+
+  height:50px;
+}
+tr{
+    background-color: cyan;
+}
+td{
+    border: 1px solid black;
+  
+
+}
+th {
+    border: 1px solid black;
+    color: chocolate;
+  
+  width: 50px;
+}
+.icons{
+    width: 50px;
+}
+td.dimas:nth-child(odd){
+    text-align: right;
+}
+</style>
+</head>
+<body>
+  <script>
+function ubahgambar1(){
+  document.getElementById("gambar1")
+.src = "kucing1.jpeg";
+}
+function ubahgambar2(){
+  document.getElementById("gambar2")
+.src = "kucing1.jpeg";
+}
+function ubahgambar3(){
+
+document.getElementById("gambar3")
+.src = "kucing1.jpeg";
+}
+
+
+  </script>
+
+<h2>The width and height Properties</h2>
+
+<p>Set the width of the table, and the height of the table header row:</p>
+
+<table>
+  <tr>
+    <th>Materi</th>
+    <th>Sub Materi</th>
+    <th>Icon</th>
+  </tr>
+  <tr>
+    <td>Materi 1</td>
+    <td>HTML</td>
+    <td class="dimas"><img id="gambar1" src="https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?rs=1&pid=ImgDetMain"onclick="ubahgambar1()" class="icons"></td>
+  </tr>
+  <tr>
+    <td>Materi 2</td>
+    <td>CSS</td>
+    <td><img id="gambar2" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/css-beginners-tutorial.jpg" onclick="ubahgambar2()" class="icons"></td>
+  </tr>
+  <tr>
+    <td>Materi 3</td>
+    <td>JavaSrcicpt</td>
+    <td class="dimas"><img id="gambar3" src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" onclick="ubahgambar3()" class="icons"></td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
+
+
+
+
+
+

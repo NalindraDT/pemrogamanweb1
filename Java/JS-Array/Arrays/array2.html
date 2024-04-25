@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+
+<p id="demo"></p>
+
+<script>
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+document.getElementById("demo").innerHTML = cars;
+</script>
+<hr>
+
+Using the JavaScript Keyword new
+<h1>JavaScript Arrays</h1>
+
+<p id="demo2"></p>
+
+<script>
+const cars2 = new Array("Saab", "Volvo", "BMW");
+document.getElementById("demo2").innerHTML = cars2;
+</script><hr>
+
+Accessing Array Elements
+<h1>JavaScript Arrays</h1>
+<h2>Bracket Indexing</h2>
+
+<p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+
+<p id="demo3"></p>
+
+<script>
+const cars3 = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo3").innerHTML = cars3[0];
+</script><hr>
+
+Changing an Array Element
+<h1>JavaScript Arrays</h1>
+<h2>Bracket Indexing</h2>
+
+<p>JavaScript array elements are accessed using numeric indexes (starting from 0).</p>
+
+<p id="demo4"></p>
+
+<script>
+const cars4 = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+document.getElementById("demo4").innerHTML = cars4;
+</script><hr>
+
+Converting an Array to a String
+<h1>JavaScript Arrays</h1> 
+<h2>The toString() Method</h2>
+
+<p>The toString() method returns an array as a comma separated string:</p>
+
+<p id="demo5"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo5").innerHTML = fruits.toString();
+</script><hr>
+
+Access the Full Array
+<h1>JavaScript Arrays</h1>
+
+<p id="demo6"></p>
+
+<script>
+const cars5 = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo6").innerHTML = cars5;
+</script><hr>
+
+Arrays are Objects
+<h2>JavaScript Arrays</h2>
+
+<p>Arrays use numbers to access its elements.</p>
+
+<p id="demo7"></p>
+
+<script>
+const person = ["John", "Doe", 46];
+document.getElementById("demo7").innerHTML = person[0];
+</script>
+
+<h1>JavaScript Objects</h1>
+
+<p>JavaScript uses names to access object properties.</p>
+<p id="demo8"></p>
+
+<script>
+const person2 = {firstName:"John", lastName:"Doe", age:46};
+document.getElementById("demo8").innerHTML = person2.firstName;
+</script>
+<hr>
+
+The length Property
+<h1>JavaScript Arrays</h1>
+<h2>The length Property</h2>
+
+<p>The length property returns the length of an array:</p>
+
+<p id="demo9"></p>
+
+<script>
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+document.getElementById("demo9").innerHTML = size;
+</script><hr>
+
+Accessing the First Array Element
+<h1>JavaScript Arrays</h1>
+<h2>Bracket Indexing</h2>
+
+<p>JavaScript array elements are accesses using numeric indexes (starting from 0).</p>
+
+<p id="demo10"></p>
+
+<script>
+const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo10").innerHTML = fruits3[0];
+</script><hr>
+
+Accessing the Last Array Element
+<h1>JavaScript Arrays</h1>
+<h2>Bracket Indexing</h2>
+
+<p>JavaScript array elements are accesses using numeric indexes (starting from 0).</p>
+
+<p id="demo11"></p>
+
+<script>
+const fruits4 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo11").innerHTML = fruits4[fruits.length-1];
+</script><hr>
+
+Looping Array Elements
+<h1>JavaScript Arrays</h1>
+<h2>Looping an Array</h2>
+
+<p id="demo12"></p>
+
+<script>
+const fruits5 = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+
+let text = "<ul>";
+for (let i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo12").innerHTML = text;
+</script><hr>
+
+<h1>JavaScript Arrays</h1>
+<h2>The forEach() Method</h2>
+
+<p>Call a function for each array element:</p>
+
+<p id="demo13"></p>
+
+<script>
+const fruits6 = ["Banana", "Orange", "Apple", "Mango"];
+
+let text1 = "<ul>";
+fruits6.forEach(myFunction);
+text1 += "</ul>";
+
+document.getElementById("demo13").innerHTML = text1;
+
+function myFunction(value) {
+  text1 += "<li>" + value + "</li>";
+} 
+</script><hr>
+
+Adding Array Elements
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The push() Method</h2>
+
+<p>The push method appends a new element to an array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo14"></p>
+
+<script>
+const fruits7 = ["Banana", "Orange", "Apple"];
+document.getElementById("demo14").innerHTML = fruits7;
+
+function myFunction() {
+  fruits7.push("Lemon");
+  document.getElementById("demo14").innerHTML = fruits7;
+}
+</script><hr>
+
+<h1>JavaScript Arrays</h1>
+
+<p>The length property provides an easy way to append new elements to an array without using the push() method.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo15"></p>
+
+<script>
+const fruits8 = ["Banana", "Orange", "Apple"];
+document.getElementById("demo15").innerHTML = fruits8;
+
+function myFunction() {
+  fruits8[fruits.length] = "Lemon";
+  document.getElementById("demo15").innerHTML = fruits8;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

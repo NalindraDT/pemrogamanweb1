@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      tr {
+        background-color: cyan;
+      }
+      th {
+        color: chocolate;
+      }
+      .icon {
+        width: 50px;
+        height: auto;
+      }
+      tr:nth-child(odd),
+      tr:nth-child(even),
+      tr:nth-child(2) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Latihan Tabel</h1>
+    <table style="width: 30%">
+      <tr>
+        <th>Materi</th>
+        <th>Sub Materi</th>
+        <th>Icon</th>
+      </tr>
+      <tr>
+        <td>Materi 1</td>
+        <td>HTML</td>
+        <td>
+          <center>
+            <img
+              src="/css/html.png"
+              class="icon"
+              id="htmlIcon"
+              onclick="gantiGambar('htmlIcon')"
+              ondblclick="tampilGambar('htmlIcon')"
+            />
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td>Materi 2</td>
+        <td>CSS</td>
+        <td>
+          <img
+            src="/css/CSS.png"
+            class="icon"
+            id="cssIcon"
+            onclick="gantiGambar('cssIcon')"
+            ondblclick="tampilGambar('cssIcon')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Materi 3</td>
+        <td>JavaScript</td>
+        <td>
+          <img
+            src="/css/JavaScript-logo.png"
+            class="icon"
+            id="jsIcon"
+            onclick="gantiGambar('jsIcon')"
+            ondblclick="tampilGambar('jsIcon')"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <script>
+      var originalImages = {};
+
+      function gantiGambar(id) {
+        var img = document.getElementById(id);
+        if (!originalImages[id]) {
+          originalImages[id] = img.src;
+        }
+
+        if (img.src.includes("html")) {
+          img.src = "/css/new_html_image.png";
+        } else if (img.src.includes("CSS")) {
+          img.src = "/css/new_css_image.png";
+        } else if (img.src.includes("JavaScript-logo")) {
+          img.src = "/css/new_js_image.png";
+        }
+      }
+
+      function tampilGambar(id) {
+        var img = document.getElementById(id);
+        if (originalImages[id]) {
+          img.src = originalImages[id];
+        }
+      }
+    </script>
+  </body>
+</html>

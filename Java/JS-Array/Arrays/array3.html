@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+
+<p>Adding elements with high indexes can create undefined "holes" in an array.</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple"];
+fruits[6] = "Lemon";
+
+let fLen = fruits.length;
+let text = "";
+for (i = 0; i < fLen; i++) {
+  text += fruits[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script><hr>
+
+Associative Arrays
+<h1>JavaScript Arrays</h1>
+
+<p id="demo1"></p>
+
+<script>
+const person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46; 
+document.getElementById("demo1").innerHTML =
+person[0] + " " + person.length;
+</script>
+<hr>
+
+<h1>JavaScript Arrays</h1>
+
+<p>If you use a named index when accessing an array, JavaScript will redefine the array to a standard object, and some array methods and properties will produce undefined or incorrect results.</p>
+
+<p id="demo2"></p>
+
+<script>
+const person1 = [];
+person1["firstName"] = "John";
+person1["lastName"] = "Doe";
+person1["age"] = 46; 
+document.getElementById("demo2").innerHTML =
+person1[0] + " " + person1.length;
+</script>
+
+JavaScript new Array()
+<h1>JavaScript Arrays</h1>
+<h2>Creating an Array</h2>
+
+<p>Avoid using new Array(). Use [] instead.</p>
+
+<p id="demo3"></p>
+
+<script>
+//const points = new Array(40, 100, 1, 5, 25, 10);
+const points = [40, 100, 1, 5, 25, 10];
+document.getElementById("demo3").innerHTML = points[0];  
+</script>
+<hr>
+
+<h2>JavaScript Arrays</h2>
+
+<p>Create an Array with three elements.</p>
+
+<p id="demo4"></p>
+
+<script>
+var points2 = new Array(40, 100, 1);
+document.getElementById("demo4").innerHTML = points2;  
+</script><hr>
+
+
+<h2>JavaScript Arrays</h2>
+
+<p>Create an Array with two elements.</p>
+
+<p id="demo5"></p>
+
+<script>
+var points3 = new Array(40, 100);
+document.getElementById("demo5").innerHTML = points3;  
+</script><hr>
+<h1>JavaScript Arrays</h1>
+
+<p>Avoid using new Array().</p>
+
+<p id="demo6"></p>
+
+<script>
+var points4 = new Array(40);
+document.getElementById("demo6").innerHTML = points4;  
+</script><hr>
+
+A Common Error
+<h1>JavaScript Arrays</h1>
+
+<p>Create an Array with one element.</p>
+
+<p id="demo7"></p>
+
+<script>
+var points5 = [40];
+document.getElementById("demo7").innerHTML = points5;  
+</script>
+
+<h1>JavaScript Arrays</h1>
+
+<p>Avoid using new Array().</p>
+
+<p id="demo8"></p>
+
+<script>
+var points6 = new Array(40);
+document.getElementById("demo8").innerHTML = points6[0];  
+</script><hr>
+
+How to Recognize an Array
+<h1>JavaScript Arrays</h1> 
+<h2>The typeof Operator</h2>
+
+<p>The typeof operator, when used on an array, returns object:</p>
+
+<p id="demo9"></p>
+
+<script>
+const fruits7 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo9").innerHTML = typeof fruits7;
+</script><hr>
+
+solution 1
+<h1>JavaScript Arrays</h1>
+<h2>The isArray() Method</h2>
+
+<p id="demo10"></p>
+
+<script>
+const fruits8 = ["Banana", "Orange", "Apple"];
+document.getElementById("demo10").innerHTML = Array.isArray(fruits8);
+</script>
+
+solution 2
+<h1>JavaScript Arrays</h1>
+<h2>The instanceof Operator</h2>
+
+<p>The instanceof operator returns true when used on an array:</p>
+
+<p id="demo11"></p>
+
+<script>
+var fruits9 = ["Banana", "Orange", "Apple"];
+document.getElementById("demo11").innerHTML = fruits9 instanceof Array;
+</script><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
