@@ -63,7 +63,7 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 (sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
-
+##
 ## Comment
 Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan tertulis tanpa mengganggu coding
 
@@ -89,7 +89,7 @@ Hasil:
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-
+#
 ## Link
 Untuk melampirkan sebuah link anda dapat menggunakan tag "a" dan "h ref" lalu anda dapat memasukan value sesuai kemauan anda
 sebuah link dapat berbentuk seperti gambar juga, untuk selengkapnya berada di file html.
@@ -109,7 +109,7 @@ sebuah link dapat berbentuk seperti gambar juga, untuk selengkapnya berada di fi
 ```
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+#
 ## Image
 
 Sebuah gambar dapat dilampirkan jika anda menggunkan "img src", dengan menggunakan tag ini anda dapat melampirkan gambar dalam folder yang sama,
@@ -136,8 +136,48 @@ dalam folder yang berbeda, dan link image dari web lain
 
 dalam gambar diatas merupakan salah satu contoh dari banyak nya contoh cara untuk melampirkan gambar
 
-
+#
 ## List
+dengan menggunanakan tag "li" anda bisa membuat list dengan cara yang berbeda beda seperti
+- tag "ul" untuk list yang tidak berurutan ( titik tengah, strip, symbol lain)
+- tag "ol" untuk list yang berurutan (angka, huruf, romawi)
+
+
+### ol (ordered list)
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An ordered HTML list</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>  
+
+</body>
+</html>
+```
+### ul (unordered list)
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+</body>
+</html>
+```
+
 
 
 
