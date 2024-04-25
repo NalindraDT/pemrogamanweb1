@@ -320,19 +320,57 @@ p.nale{
 </body>
 </html>
 ```
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 - (h1,h2.p) = element
 - (.nale) = "class= nale"
 - (#nale1)= "id= nale1"
 - (p.nale)= "p class= nale"
 
 
+#
+## Cara penggunaan
+cara penggunaan sebuah CSS dapat dilakukan dengan cara berikut
+- inline (berada di baris yang sama dengan perintah)
+- internal (berada di head html)
+- external (berada di luar file)
 
+```html
+  <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mystyle.css">
+<style>
+body {
+  background-color: linen;
+}
 
+h1 {
+  color: maroon;
+  margin-left: 40px;
+} 
 
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2 style="color:blue;text-align:center;">ini heading 2</h2>
+<p class="open">This is a paragraph.</p>
+
+</body>
+</html>
+
+```
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+untuk contoh gambar yang lebih lengkap silahkan kunjungi files CSS
+
+#
+## 
 
 
   
-#
 
 
 
