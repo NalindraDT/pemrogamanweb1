@@ -272,6 +272,11 @@ Contoh pembuatan list bersarang
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-
+#
 # CSS
+
+Dalam perogaman web, CSS digunakan untuk mendekorasi atau memperindah sebuah website. Dengan penggunaan CSS yang baik dan benar,
+para user pasti akan merasa nyaman menggunkan website yang mereka kunjungi
+
+## 
 
