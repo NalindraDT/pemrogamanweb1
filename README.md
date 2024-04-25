@@ -433,6 +433,143 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+#
+## Box model, outline, dan text format
+- box model (merupakan sebuah kotak yang dapat diberi sebuah tulisan macam macam)
+- outline merupakan sebuah garis yang berada di bagian luar suatu objek
+- text format merupakan bagaimana cara penulisan sebuah teks
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightgrey;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  outline-style:dashed;
+  outline-color: blue;
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+</body>
+</html>
+```
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#
+## Border, table, etc
+- border untuk member pembatas pada tulisan
+- table untuk menghias tabel dari html
+- padding untuk memberi batas teks dalam tabel
+- margins untuku membatasi tabel dengan pojokan
+- hover digunakan untuk mengaktifkan sesuatu jika cursor melawati suatu variabel
+- nth-child digunakan untuk menentutkan sesuatu dengan ganjil dan genap
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1 - CSS</title>
+
+</head>
+  <style>
+    body{
+      font-family: arial;
+    }
+    .judul{
+      text-align:center;
+    }
+    table, td, th {
+      border: 1px solid;
+      border-color:red;
+    }
+    table {
+      width: 1000px;
+      height: 20px;
+      border-collapse: collapse;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    th{
+        color: white;
+        background-color: rgb(87,87,218);
+    }
+    tr:nth-child(even) {
+        background-color: #59ddd5;
+    }
+    tr:hover{
+        background-color: greenyellow;
+        font-size:120%;
+        font-weight:bold;
+    }
+  
+    
+ 
+  </style>
+<body>
+  <h2 class="judul" style="color: blue "> Daftar Mahasiswa</h2>
+  <table>
+      <tr>
+          <th>Nama</th>
+          <th>Program Studi</th>
+          <th>Kelas</th>
+      </tr>
+      <tr>
+          <td>John Dee</td>
+          <td>Teknik Informatika</td>
+          <td>A-01</td>
+      </tr>
+      <tr>
+          <td>Jane Smith</td>
+          <td>Sistem Informasi</td>
+          <td>B-02</td>
+      </tr>
+      <tr>
+          <td>Alice Johnson</td>
+          <td>Teknik Komputer</td>
+          <td>A-03</td>
+      </tr>
+      <tr>
+          <td>Bob Brown</td>
+          <td>Teknik Elektro</td>
+          <td>C-01</td>
+      </tr>
+      <tr>
+          <td>Emily Davis</td>
+          <td>Manajemen Informatika</td>
+          <td>D-02</td>
+      </tr>
+  </table>
+   <li><b>Keterangan : </b></li>
+      <ol type="1">
+        <li> Warna Heading dan Table Header adalah <b>rgb(87,87,218)</b></li>
+        <li>Warna baris genap adalah <b>#59ddd5</b></li>
+        <li>Warna saat hover adalah <b>greenyellow</b></li>
+          <li>Warna saat hover adalah <b>greenyellow</b></li>
+        <li>Pada saat hover, ukuran font <b>lebih besar</b>dan berubah menjadi<b>BOLD
+        </b></li>
+  </body>
+</body>
+</html>
+```
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+  
+
+
 
 
 
