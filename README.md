@@ -60,7 +60,7 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 
 ### Hasil:
 
-![App Screenshot](/jpg/html1)
+![alt text](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html1.png?raw=true)
 
 (sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
 ##
@@ -87,7 +87,7 @@ Sebuah comment memiliki fungsi untuk memberikan comment atau sebuah penjelasan t
 
 Hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html2.png)
 
 #
 ## Link
@@ -108,7 +108,7 @@ sebuah link dapat berbentuk seperti gambar juga, untuk selengkapnya berada di fi
 
 ```
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html3.png)
 #
 ## Image
 
@@ -132,7 +132,7 @@ dalam folder yang berbeda, dan link image dari web lain
 ```
 ## Hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html4.png)
 
 dalam gambar diatas merupakan salah satu contoh dari banyak nya contoh cara untuk melampirkan gambar
 
@@ -161,7 +161,7 @@ dengan menggunanakan tag "li" anda bisa membuat list dengan cara yang berbeda be
 </html>
 ```
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html5.png)
 
 
 ### ul (unordered list)
@@ -182,7 +182,7 @@ dengan menggunanakan tag "li" anda bisa membuat list dengan cara yang berbeda be
 </html>
 ```
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html6.png)
 
 
 #
@@ -229,7 +229,7 @@ table, th, td {
 
 ```
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html7.png)
 
 #
 ## Contoh pelaksanaanya
@@ -270,7 +270,7 @@ table, th, td {
 ```
 Contoh pembuatan list bersarang
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/html8.png)
 
 #
 # CSS
@@ -322,7 +322,7 @@ p.nale{
 ```
 
 ## hasil:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/CSS1.png)
 
 - (h1,h2.p) = element
 - (.nale) = "class= nale"
@@ -366,7 +366,7 @@ h1 {
 ```
 ## hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/CSS2.png)
 
 untuk contoh gambar yang lebih lengkap silahkan kunjungi files CSS
 
@@ -435,7 +435,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 ```
 ### Hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/CSS3.png)
 
 #
 ## Box model, outline, dan text format
@@ -475,7 +475,7 @@ div {
 
 ## hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/CSS4.png)
 #
 ## Border, table, etc
 - border untuk member pembatas pada tulisan
@@ -577,7 +577,7 @@ div {
 
 ## hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/CSS5.png)
 
 
 # Java Script
@@ -607,7 +607,7 @@ Merupakan sebuah command untuk memanggil suatu variabel
   </body>
 </html>
 ```
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/SSJS1.png)
 
 #
 ## Let, Var, Const
@@ -656,7 +656,7 @@ hanya saja let dan const lebih unggul daripada var
 ## Hasil:
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/SSJS2.png)
 
 #
 ## Array
@@ -694,7 +694,7 @@ document.getElementById("demo").innerHTML = cars;
 ```
 ## Hasil:
 
- ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+ ![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/SSJS3.png)
 
  #
  ## Function 
@@ -727,7 +727,7 @@ document.getElementById("demo").innerHTML = cars;
 ```
 ## Hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/SSJS4.png)
 
 #
 ## Contoh Pelaksanaan
@@ -845,7 +845,7 @@ Berikut merupakan contoh pelaksanaanya
 ```
 ## Hasil:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/NalindraDT/pemrogamanweb1/blob/main/jpg/SSJS5.png)
 
 
 
