@@ -60,7 +60,7 @@ Berikut merupakan sebuah codingan sederhana yang berisi berbagai macam tag dasar
 
 ### Hasil:
 
-![App Screenshot](./jpg/html1)
+![App Screenshot](/jpg/html1)
 
 (sebuah header memilki ketebalan dan ukuran font yang berbeda sesuia tipe mereka)
 ##
