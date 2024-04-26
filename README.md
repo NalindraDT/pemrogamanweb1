@@ -316,6 +316,10 @@ p.nale{
 <h1>Hello World!</h1>
 <h2>Smaller heading!</h2>
 <p>This is a paragraph.</p>
+<p class="nale">Oi lads</p>
+<p id="nale1">Dadah lads</p>
+<h3 class="nale">Bye bye lads</h3>
+
 
 </body>
 </html>
